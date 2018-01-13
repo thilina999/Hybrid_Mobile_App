@@ -1,0 +1,299 @@
+html,
+body {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    height: auto;
+    margin-bottom: 0!important;
+    position: fixed !important;
+    margin-top: -1px!important;
+    border-radius: 0!important;
+    background-color: #2bb192 !important;
+    width: 100%;
+
+    z-index: 99;
+}
+
+.navbar-title {
+    margin: 0px;
+}
+
+.navbar-title img {
+    margin: auto;
+}
+
+.header {
+    padding-top: 25%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#headertext {
+    margin-top: auto;
+}
+
+.header h2 {
+    font-size: 22px;
+    margin-top: auto;
+    text-align: center;
+}
+
+.contentBlock p {
+    font-size: 16px;
+    text-align: justify;
+    padding: 1px;
+}
+
+label {
+    font-size: 16px;
+}
+
+.flexFormFieldHTML {
+    text-align: center;
+}
+
+.flexFormFieldHTML .btn-group {
+    margin: 5px;
+}
+
+.flexFormFieldHTML .radioButton {
+    font-size: 16px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.flexFormFieldHTML textarea {
+    font-size: 18px;
+}
+
+.flexFormFieldHTML .flexInputSimple {
+    font-size: 18px;
+}
+
+.flexFormSubmitBlock {
+    padding: 20px;
+}
+
+.flexFormSubmitBlock .btn {
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#mainContent {
+    background-color: aliceblue;
+}
+
+#frontdesk,
+#housekeeping,
+#maintenance,
+#breakfast,
+#generalComment {
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+.radioButton {
+    color: #000;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    /*Desired width*/
+    height: 20px;
+    /*Desired height*/
+}
+
+#chechboxOptions {
+    text-align: left;
+    margin: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+#generalComment .flexFormBlockLabel,
+#yourVisit .flexFormBlockLabel {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media(max-width:375px) {
+    .flexFormFieldHTML .btn-group {
+        display: inline-flex;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .btn-group .btn {
+        padding-left: 5px;
+        padding-right: 5px;
+        width:70px;
+    }
+    .flexFormFieldHTML .radioButton {
+        font-size: 15px;
+        padding: 0px;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    .radioButton {
+        color: #000;
+    }
+    .flexFormFieldHTML textarea {
+        font-size: 16px;
+    }
+    .flexFormFieldHTML .flexInputSimple {
+        font-size: 16px;
+    }
+    .flexFormSubmitBlock {
+        padding: 20px;
+    }
+    .flexFormSubmitBlock .btn {
+        width: 100%;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    #mainContent {
+        background-color: aliceblue;
+    }
+    #frontdesk,
+    #housekeeping,
+    #maintenance,
+    #breakfast,
+    #generalComment {
+        background-color: #fff;
+        padding: 5px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border-radius: 4px;
+    }
+    input[type="checkbox"] {
+        width: 20px;
+        /*Desired width*/
+        height: 20px;
+        /*Desired height*/
+    }
+    #chechboxOptions {
+        text-align: left;
+        margin: 10px;
+        margin-left: 20px;
+        font-size: 18px;
+    }
+    #generalComment .flexFormBlockLabel,
+    #yourVisit .flexFormBlockLabel {
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+}
+
+@media(min-width:768px) {
+    .navbar-title {
+        margin: 5px;
+    }
+    .header {
+        padding-top: 25%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    #headertext {
+        margin-top: -80px;
+    }
+    .header h2 {
+        font-size: 36px;
+        margin-top: 0;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .contentBlock p {
+        font-size: 30px;
+        text-align: justify;
+        padding: 1px;
+    }
+    #mainContent h3 {
+        font-size: 36px;
+        margin: 20px;
+    }
+    label {
+        font-size: 28px;
+    }
+    .flexFormFieldHTML {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .flexFormFieldHTML .btn-group {
+        margin: 5px;
+    }
+    .flexFormFieldHTML .btn {
+        font-size: 32px;
+    }
+    .flexFormFieldHTML .radioButton {
+        font-size: 32px;
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .flexFormFieldHTML textarea {
+        font-size: 28px;
+    }
+    .flexFormFieldHTML .flexInputSimple {
+        font-size: 28px;
+    }
+    .flexFormSubmitBlock {
+        padding: 32px;
+    }
+    .flexFormSubmitBlock .btn {
+        width: 100%;
+        font-size: 36px;
+        font-weight: bold;
+    }
+    #mainContent {
+        background-color: aliceblue;
+    }
+    #frontdesk,
+    #housekeeping,
+    #maintenance,
+    #breakfast,
+    #generalComment {
+        background-color: #fff;
+        padding: 10px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border-radius: 8px;
+        font-size: 30px;
+    }
+    .radioButton {
+        color: #000;
+    }
+    input[type="checkbox"] {
+        width: 40px;
+        /*Desired width*/
+        height: 40px;
+        /*Desired height*/
+    }
+    #chechboxOptions {
+        text-align: left;
+        margin: 10px;
+        margin-left: 20px;
+        font-size: 30px;
+    }
+    #generalComment .flexFormBlockLabel,
+    #yourVisit .flexFormBlockLabel {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 30px;
+    }
+    #yourVisit .flexFormFieldHTML {
+        font-size: 30px !important;
+    }
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: #2bb192;
+}
